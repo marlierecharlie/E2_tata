@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Répartition des items dans chaque classe (training set):
 label
 1    626
@@ -34,3 +35,41 @@ Matrice de confusion après entrainement:
 
 
 
+=======
+Répartition des items dans chaque classe (training set):
+label
+1    626
+2    626
+3    626
+0    625
+Name: count, dtype: int64
+
+Nombre total d'items dans l'ensemble d'entraînement:
+2503
+Nombre total d'items dans l'ensemble de test:
+1388
+Nombre total d'items:
+3891
+
+Résultats du 2023-12-07 19:16:02.533817 avant entrainement:
+{'eval_loss': 1.3916114568710327, 'eval_accuracy': 0.2687319884726225, 'eval_runtime': 5.0507, 'eval_samples_per_second': 274.815, 'eval_steps_per_second': 34.451}
+
+Matrice de confusion:
+[[  3   0 337   7]
+ [ 11   0 170 166]
+ [ 45   0 302   0]
+ [ 64  88 127  68]]
+
+Résultats du 2023-12-07 18:09:37.601762 après entrainement:
+{'test_loss': 0.009183484129607677, 'test_accuracy': 0.9992795389048992, 'test_runtime': 5.1764, 'test_samples_per_second': 268.138, 'test_steps_per_second': 33.614}
+
+Matrice de confusion après entrainement:
+[[346   1   0   0]
+ [  0 347   0   0]
+ [  0   0 347   0]
+ [  0   0   0 347]]
+
+
+
+
+>>>>>>> 0f64690af03ca4633cc152e3237766b7451a88fc
